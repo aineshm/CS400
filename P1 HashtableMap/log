@@ -1,0 +1,35 @@
+Script started on 2023-02-16 05:50:49+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="111" LINES="37"]
+[?2004h]0;aineshmohan@ainesh-instance-1: ~/week03/Project1_ainesh[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week03/Project1_ainesh[00m$ java FrontendDeveloperTests
+[?2004lError: Could not find or load main class FrontendDeveloperTests
+Caused by: java.lang.ClassNotFoundException: FrontendDeveloperTests
+[?2004h]0;aineshmohan@ainesh-instance-1: ~/week03/Project1_ainesh[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week03/Project1_ainesh[00m$ java FrontendDeveloper[K[Kgit status
+[?2004lOn branch FrontendDeveloper
+Your branch is ahead of 'origin/FrontendDeveloper' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;aineshmohan@ainesh-instance-1: ~/week03/Project1_ainesh[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week03/Project1_ainesh[00m$ git log -1
+[?2004l[?1h=[33mcommit 987da007bdaddb6c1b18f5aaf25ed259586db8ad[m[33m ([m[1;36mHEAD -> [m[1;32mFrontendDeveloper[m[33m)[m[m
+Author: Ainesh Mohan <amohan28@wisc.edu>[m
+Date:   Thu Feb 16 05:49:22 2023 +0000[m
+[m
+    Committing CHSearchBackendInterface.java, CHSearchFrontendXX.java, FrontendDeveloperTests.java, TextUITeste[m r.java to repo[m
+[K[?1l>[?2004h]0;aineshmohan@ainesh-instance-1: ~/week03/Project1_ainesh[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week03/Project1_ainesh[00m$ l[Krm -f*[K ([K*/[K.class
+[?2004l[?2004h]0;aineshmohan@ainesh-instance-1: ~/week03/Project1_ainesh[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week03/Project1_ainesh[00m$ jav[K[K[Kls
+[?2004lCHSearchBackendFD.java         CHSearchFrontendInterface.java  FrontendDeveloperTests.java  log
+CHSearchBackendInterface.java  CHSearchFrontendXX.java         TextUITester.java            role.txt
+[?2004h]0;aineshmohan@ainesh-instance-1: ~/week03/Project1_ainesh[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week03/Project1_ainesh[00m$ javac *.java
+[?2004l[?2004h]0;aineshmohan@ainesh-instance-1: ~/week03/Project1_ainesh[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week03/Project1_ainesh[00m$ java FrontendDeveloperTests
+[?2004lTest 1 passed: true
+Test 2 passed: true
+Test 3 passed: true
+Test 4 passed: true
+Test 5 passed: true
+[?2004h]0;aineshmohan@ainesh-instance-1: ~/week03/Project1_ainesh[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week03/Project1_ainesh[00m$ exit
+[?2004lexit
+
+Script done on 2023-02-16 05:52:26+00:00 [COMMAND_EXIT_CODE="0"]

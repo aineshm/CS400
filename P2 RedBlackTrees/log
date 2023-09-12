@@ -1,0 +1,195 @@
+<<<<<<< HEAD
+Script started on 2023-03-30 06:20:17+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="140" LINES="44"]
+[?2004h]0;amohan29@instance1: ~/Project2_BS_blue[01;32mamohan29@instance1[00m:[01;34m~/Project2_BS_blue[00m$ [7mgit status[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status
+[A
+[?2004lOn branch DataWrangler
+Your branch is ahead of 'origin/DataWrangler' by 2 commits.
+  (use "git push" to publish your local commits)
+=======
+<<<<<<< HEAD
+Script started on 2023-03-30 05:14:17+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="111" LINES="39"]
+[?2004h]0;kmishra6@instance-1: ~/Project2_BS_blue[01;32mkmishra6@instance-1[00m:[01;34m~/Project2_BS_blue[00m$ git status
+[?2004lOn branch BackendDeveloper
+Your branch is up to date with 'origin/BackendDeveloper'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   Makefile[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mBackendDeveloperTests.java[m
+	[31mDatabaseRBTBD.java[m
+	[31mNetflixDataBD.java[m
+	[31mNetflixDataReaderBD.java[m
+	[31mNetflixRBTBackendBD.java[m
+	[31mRedBlackTree.java[m
+	[31mSortedCollectionInterface.java[m
+	[31mjunit5.jar[m
+	[31mlog[m
+	[31mtest.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;kmishra6@instance-1: ~/Project2_BS_blue[01;32mkmishra6@instance-1[00m:[01;34m~/Project2_BS_blue[00m$ git log -1
+[?2004l[?1h=[33mcommit 8cc7b27545891d4d1f80d862fe12d59097abef82[m[33m ([m[1;36mHEAD -> [m[1;32mBackendDeveloper[m[33m, [m[1;31morigin/BackendDeveloper[m[33m)[m[m
+Author: Kushal Mishra <kmishra6@wisc.edu>[m
+Date:   Thu Mar 30 04:30:38 2023 +0000[m
+[m
+    Adding interfaces[m
+[K[?1l>[?2004h]0;kmishra6@instance-1: ~/Project2_BS_blue[01;32mkmishra6@instance-1[00m:[01;34m~/Project2_BS_blue[00m$ make clean
+[?2004lrm *.class
+rm: cannot remove '*.class': No such file or directory
+make: *** [Makefile:23: clean] Error 1
+[?2004h]0;kmishra6@instance-1: ~/Project2_BS_blue[01;32mkmishra6@instance-1[00m:[01;34m~/Project2_BS_blue[00m$ ls
+[?2004lBackendDeveloperTests.java  NetflixDataBD.java                 NetflixRBTBackendBD.java         [0m[01;31mjunit5.jar[0m
+DatabaseRBTBD.java          NetflixDataInterfaceDW.java        NetflixRBTBackendInterface.java  log
+DatabaseRBTInterface.java   NetflixDataReaderBD.java           RedBlackTree.java                test.txt
+Makefile                    NetflixDataReaderInterfaceDW.java  SortedCollectionInterface.java
+[?2004h]0;kmishra6@instance-1: ~/Project2_BS_blue[01;32mkmishra6@instance-1[00m:[01;34m~/Project2_BS_blue[00m$ make runTests
+[?2004ljavac RedBlackTree.java SortedCollectionInterface.java
+javac DatabaseRBTBD.java DatabaseRBTInterface.java
+javac NetflixDataReaderBD.java NetflixDataReaderInterfaceDW.java
+javac NetflixRBTBackendBD.java NetflixRBTBackendInterface.java
+javac -cp .:junit5.jar BackendDeveloperTests.java
+java -jar junit5.jar -cp . --select-class=BackendDeveloperTests
+=======
+Script started on 2023-03-29 22:45:00+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="214" LINES="60"]
+[?2004h]0;aineshmohan@ainesh-instance-1: ~/week08/Project2_BS_blue[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week08/Project2_BS_blue[00m$ [7mgit status[27mgit status
+[?2004l
+On branch AlgorithmEngineer
+Your branch is up to date with 'origin/AlgorithmEngineer'.
+>>>>>>> 74e4d0f967402163af052c01d59c8a903028e2ef
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+<<<<<<< HEAD
+[?2004h]0;amohan29@instance1: ~/Project2_BS_blue[01;32mamohan29@instance1[00m:[01;34m~/Project2_BS_blue[00m$ [7mgit log -1[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit log -1
+[A
+[?2004l[?1h=[33mcommit 70c4797733a5daba4419fbffe9d824a6477e78f3[m[33m ([m[1;36mHEAD -> [m[1;32mDataWrangler[m[33m)[m[m
+Author: Akash <amohan29@wisc.edu>[m
+Date:   Thu Mar 30 06:19:35 2023 +0000[m
+[m
+    deleted[m
+[K[?1l>[?2004h]0;amohan29@instance1: ~/Project2_BS_blue[01;32mamohan29@instance1[00m:[01;34m~/Project2_BS_blue[00m$ [7mmake clean[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake clean
+[A
+[?2004lrm *.class
+rm: cannot remove '*.class': No such file or directory
+make: *** [Makefile:10: clean] Error 1
+[?2004h]0;amohan29@instance1: ~/Project2_BS_blue[01;32mamohan29@instance1[00m:[01;34m~/Project2_BS_blue[00m$ ls
+[?2004lDataWranglerTests.java  NetflixDataDW.java           NetflixDataReaderDW.java           [0m[01;31mjunit5.jar[0m  netflix_titles2.csv
+Makefile                NetflixDataInterfaceDW.java  NetflixDataReaderInterfaceDW.java  log
+[?2004h]0;amohan29@instance1: ~/Project2_BS_blue[01;32mamohan29@instance1[00m:[01;34m~/Project2_BS_blue[00m$ [7mmake runTests[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake runTests
+[A
+[?2004ljavac NetflixDataDW.java
+javac NetflixDataReaderDW.java
+javac -cp .:junit5.jar DataWranglerTests.java
+java -jar junit5.jar -cp . --select-class=DataWranglerTests
+Type: Movie
+Title: Dick Johnson Is Dead
+Director: Kirsten Johnson
+Date: United States
+Year: "September 25, 2021"
+Rating: 2020
+Duration: PG-13
+=======
+[?2004h]0;aineshmohan@ainesh-instance-1: ~/week08/Project2_BS_blue[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week08/Project2_BS_blue[00m$ [7mgit log -1[27mgit log -1
+[?2004l
+[?1h=
+[33mcommit 48beb463dc2751187e17726867a0e063cd1ec11a[m[33m ([m[1;36mHEAD -> [m[1;32mAlgorithmEngineer[m[33m, [m[1;31morigin/AlgorithmEngineer[m[33m)[m[m
+Author: Ainesh Mohan <amohan28@wisc.edu>[m
+Date:   Wed Mar 29 22:38:42 2023 +0000[m
+[m
+    Added and committed junit5.jar file[m
+
+[K[?1l>[?2004h]0;aineshmohan@ainesh-instance-1: ~/week08/Project2_BS_blue[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week08/Project2_BS_blue[00m$ [7mmake clean[27mmake clean
+[?2004l
+rm -f *.class
+rm -f~
+rm: invalid option -- '~'
+Try 'rm --help' for more information.
+make: *** [Makefile:17: clean] Error 1
+[?2004h]0;aineshmohan@ainesh-instance-1: ~/week08/Project2_BS_blue[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week08/Project2_BS_blue[00m$ ls
+[?2004l
+AlgorithmEngineerTest.java  DatabaseRBTAE.java  DatabaseRBTInterfaceAE.java  Makefile  NetflixSearchApp.java  RedBlackTree.java  SortedCollectionInterface.java  [0m[01;31mjunit5.jar[0m  log
+[?2004h]0;aineshmohan@ainesh-instance-1: ~/week08/Project2_BS_blue[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week08/Project2_BS_blue[00m$ make runnT[K[KTests
+[?2004l
+javac DatabaseRBTInterfaceAE.java
+javac -cp .:junit5.jar RedBlackTree.java SortedCollectionInterface.java
+javac DatabaseRBTAE.java
+javac -cp .:junit5.jar AlgorithmEngineerTest.java
+java -jar junit5.jar -cp . --select-class=AlgorithmEngineerTest
+>>>>>>> 15717dab880655b76b4fd3a7486df7da0abba436
+>>>>>>> 74e4d0f967402163af052c01d59c8a903028e2ef
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+<<<<<<< HEAD
+[36m│  └─[0m [36mDataWranglerTests[0m [32m✔[0m
+=======
+<<<<<<< HEAD
+[36m│  └─[0m [36mBackendDeveloperTests[0m [32m✔[0m
+=======
+[36m│  └─[0m [36mAlgorithmEngineerTest[0m [32m✔[0m
+>>>>>>> 15717dab880655b76b4fd3a7486df7da0abba436
+>>>>>>> 74e4d0f967402163af052c01d59c8a903028e2ef
+[36m│     ├─[0m [34mtest1()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest2()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest3()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest4()[0m [32m✔[0m
+[36m│     └─[0m [34mtest5()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+<<<<<<< HEAD
+Test run finished after 270 ms
+=======
+<<<<<<< HEAD
+Test run finished after 207 ms
+=======
+Test run finished after 164 ms
+>>>>>>> 15717dab880655b76b4fd3a7486df7da0abba436
+>>>>>>> 74e4d0f967402163af052c01d59c8a903028e2ef
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+<<<<<<< HEAD
+[?2004h]0;amohan29@instance1: ~/Project2_BS_blue[01;32mamohan29@instance1[00m:[01;34m~/Project2_BS_blue[00m$ [7mexit[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit
+[A
+[?2004lexit
+
+Script done on 2023-03-30 06:21:02+00:00 [COMMAND_EXIT_CODE="0"]
+=======
+<<<<<<< HEAD
+[?2004h]0;kmishra6@instance-1: ~/Project2_BS_blue[01;32mkmishra6@instance-1[00m:[01;34m~/Project2_BS_blue[00m$ exit
+[?2004lexit
+
+Script done on 2023-03-30 05:14:52+00:00 [COMMAND_EXIT_CODE="0"]
+=======
+[?2004h]0;aineshmohan@ainesh-instance-1: ~/week08/Project2_BS_blue[01;32maineshmohan@ainesh-instance-1[00m:[01;34m~/week08/Project2_BS_blue[00m$ ei[Kxit
+[?2004l
+exit
+
+Script done on 2023-03-29 22:45:59+00:00 [COMMAND_EXIT_CODE="0"]
+>>>>>>> 15717dab880655b76b4fd3a7486df7da0abba436
+>>>>>>> 74e4d0f967402163af052c01d59c8a903028e2ef
